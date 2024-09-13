@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Membuat Form</title>
+    </head>
+
+<body>
+    <form method="POST" action="gambar.html">
+        <h4>FORM</h4>
+        <input type="text" name="var1" SIZE="30" VALUE="Enter your name here.">
+        <BR></BR>
+
+        <input type="text" name="var2" SIZE="30" value="Enter your address here">
+        <BR></BR>
+
+        <B>How Old Are You?</B>
+        <BR>
+            <input type="radio" name="var4" value="r1">10-15 <BR>
+            <input type="radio" name="var4" value="r2">16-20 <BR>
+            <input type="radio" name="var4" value="r3">21-25 <BR><BR>
+            <b>Which one do you have?</b><br><br>
+            <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+            <input type="checkbox" name="vehicle2" value="Car"> I have a car<br>
+            <input type="checkbox" name="vehicle3" value="Boat"> I have a boat<br>
+            <input type="checkbox" name="vehicle3" value="Plane" checked> I have a Plane<br>
+
+            <br>
+            <b>Where are you from?</b>
+                <br>
+                <select name="var6" size="1">
+                    <option value="ID" selected>Indonesia
+                    <option value="BG">Bulgaria
+                    <option value="UK">United Kingdom
+                    <option value="USA">USA
+                    <option value="IND">Indonesia
+                </select>
+            <br><br>
+
+            <label for="privateCode"><b>Enter your private code</b></label>
+            <input type="password" id="privateCode" name="var3" SIZE="20">
+            <BR></BR>
+
+
+            <label for="comments"><b>Enter your comment</b></label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Fill this area"></textarea>
+            <BR></BR>
+
+
+        <input type="submit" name="var5" value="Send"> 
+        <input type="reset" name="var6" value="Clear">
+            </form>
+</body>
+</html>
