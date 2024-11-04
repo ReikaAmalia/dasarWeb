@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periksa Bilangan Kuadrat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Form Pengecekan Bilangan Kuadrat</h1>
+        <form id="formCek" action="proses.php" method="POST" onsubmit="return cekInput()">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+            <label for="angka">Angka:</label>
+            <input type="number" id="angka" name="angka" required>
+            <button type="submit">Cek</button>
+            <p id="error" class="error"></p>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
